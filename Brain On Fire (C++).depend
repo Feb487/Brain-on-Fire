@@ -126,3 +126,61 @@
 	<iostream>
 	"Colors.h"
 
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\core\colors\colors.cpp
+	"Colors.h"
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\core\colors\colors.h
+
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\concentrazione\concentrazione.cpp
+	<iostream>
+	"../../Banners/Banners.h"
+	"../../GlobalVariables/Global.h"
+	"Concentrazione.h"
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\banners\banners.h
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\globalvariables\global.h
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\concentrazione\concentrazione.h
+
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\memoria\memoria.cpp
+	<iostream>
+	"../../Banners/Banners.h"
+	"../../GlobalVariables/Global.h"
+	"Memoria.h"
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\memoria\memoria.h
+
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\trovalaparola\trovalaparola.cpp
+	<iostream>
+	"../../Banners/Banners.h"
+	"../../GlobalVariables/Global.h"
+	"TrovaLaParola.h"
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\giochi\trovalaparola\trovalaparola.h
+
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\globalvariables\global.cpp
+	<iostream>
+	"Global.h"
+
+1710088029 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\users\users.cpp
+	<iostream>
+	"../Banners/Banners.h"
+	"Users.h"
+
+1710088029 c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\users\users.h
+
+1710091310 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\banners\banners.cpp
+	<iostream>
+	"Banners.h"
+
+1710091371 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain-on-fire\core\main.cpp
+	<iostream>
+	"../Banners/Banners.h"
+	"../Giochi/Concentrazione/Concentrazione.h"
+	"../Giochi/TrovaLaParola/TrovaLaParola.h"
+	"../Giochi/Memoria/Memoria.h"
+	"../Users/Users.h"
+	"../GlobalVariables/Global.h"
+	"Colors/Colors.h"
+

@@ -22,6 +22,7 @@ int main()
     cout << RED << "funziona: " << RESET << Global::i << endl;
     banner.logoIniziale();
 	banner.uscitaFinale();
+	banner.inizioGame();
     concentrazione.game();
     memoria.game();
     trovalaparola.game();
@@ -29,7 +30,7 @@ int main()
 
 	cout << "prima commit su GIT !" << endl;
     //Fine prove
-	
+
 	cout << "prova stampa" << endl;
 
 	getchar();

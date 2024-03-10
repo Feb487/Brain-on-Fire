@@ -10,11 +10,12 @@ void Banners::logoIniziale() {
 }
 
 void Banners::uscitaFinale() {
-	
+
 	cout << "ciao sono giancarlo"<<endl;
 }
 
 void Banners::inizioGame(){
-	
+
+    cout << "ciao sono davide e matteo è gay" << endl;
 	//metti il codice
 }

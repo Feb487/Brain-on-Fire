@@ -11,7 +11,7 @@ void Banners::logoIniziale() {
 
 void Banners::uscitaFinale() {
 	
-	cout << "ciao"<<endl;
+	cout << "ciao sono giancarlo"<<endl;
 }
 
 void Banners::inizioGame(){

@@ -19,13 +19,14 @@ void Users::credenzialiAccessoUtente() {
 int Users::registrazione() {
 
     //Codice registrazione
-
+	return 0;
 }
 
 int Users::accesso() {
 
     //Codice accesso
-cout << "funziona" << endl;
+	cout << "funziona" << endl;
+	return 0;
 }
 
 void Users::salvaEdEsci() {

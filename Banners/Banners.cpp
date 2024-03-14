@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Banners.h"
+#include <unistd.h>
 
 using namespace std;
 

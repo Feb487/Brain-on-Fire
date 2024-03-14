@@ -4,7 +4,6 @@
 #include "../Giochi/TrovaLaParola/TrovaLaParola.h"
 #include "../Giochi/Memoria/Memoria.h"
 #include "../Users/Users.h"
-#include "../GlobalVariables/Global.h"
 #include "Colors/Colors.h"
 
 using namespace std;
@@ -19,7 +18,7 @@ int main()
     TrovaLaParola trovalaparola;
     Users user;
 
-    cout << RED << "funziona: " << RESET << Global::i << endl;
+    cout << RED << "funziona: " << RESET << endl;
     banner.logoIniziale();
 	banner.uscitaFinale();
 	banner.inizioGame();

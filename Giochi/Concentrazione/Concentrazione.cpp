@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../../Banners/Banners.h"
-#include "../../GlobalVariables/Global.h"
 #include "Concentrazione.h"
 
 using namespace std;
@@ -8,7 +7,7 @@ using namespace std;
 void Concentrazione::game() {
 
     //Codice game
-cout << "funziona: " << Global::i+1 << endl;
+cout << "funziona: " << endl;
 }
 
 void Concentrazione::caricamento() {

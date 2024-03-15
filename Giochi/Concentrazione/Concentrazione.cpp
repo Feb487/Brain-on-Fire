@@ -4,6 +4,7 @@
 #include "../../Banners/Banners.h"
 #include "Concentrazione.h"
 #include "../../Core/Colors/Colors.h"
+#include "../Crono/crono.h"
 
 #define MAX_TEMPO 100
 
@@ -11,12 +12,10 @@ using namespace std;
 
 bool flag = true;
 
-void task(int &tempo)
+void task(Crono& cronometro)
 {
-	int i;
 	do{
-		tempo++;
-		sleep(1);
+		cronometro.incrementa();
 	}while(flag);
 	
 }
@@ -29,7 +28,7 @@ void Concentrazione::game() {
 		int righe,colonne; //Variabile utilizzata per le righe e le colonne della matrice
 		int c; //numero casuale generato dal programma
 		int score=0; //Punteggio dell'utente
-		int tempo=0;
+		Crono cronometro;
 		
 		//inizializzazione della barra del tempo
 		char progressBar[MAX_TEMPO + 1];
@@ -75,16 +74,16 @@ void Concentrazione::game() {
 		cout << "sei pronto per iniziare...[premere un tasto per continuare]";
 		getchar();
 		
-		thread tid1(task,ref(tempo)); //inizia il tempo
+		thread tid1(task,ref(cronometro)); //inizia il tempo
 		
 		do{
 			system("cls");
-			if (score == righe*colonne && tempo <= MAX_TEMPO )
+			if (score == righe*colonne && cronometro.leggi() <= MAX_TEMPO )
 			{
 				cout << "hai vinto" << endl;
 				flag = false;
 			}
-			else if ( score < righe*colonne && tempo >= MAX_TEMPO )
+			else if ( score < righe*colonne && cronometro.leggi() >= MAX_TEMPO )
 			{
 				cout << "hai perso" << endl;
 				flag = false;
@@ -92,7 +91,7 @@ void Concentrazione::game() {
 			else
 			{
 				stampa(righe,colonne);
-				cout << "Tempo rimanente: [" << YELLOW << progressBar << RESET << "]"<< MAX_TEMPO - tempo <<  "s\r" << endl << endl;
+				cout << "Tempo rimanente: [" << YELLOW << progressBar << RESET << "]"<< MAX_TEMPO - cronometro.leggi() <<  "s\r" << endl << endl;
 				
 				do{
 					c = matrice [rand()% (righe*colonne)];
@@ -130,7 +129,7 @@ void Concentrazione::game() {
 				}
 				
 				//Aggiornamento della barra del tempo a fine dell'esecuzione
-				for ( i = 0; i < tempo; i++) {
+				for ( i = 0; i < cronometro.leggi(); i++) {
 					progressBar[i] = '>';
 				}
 				

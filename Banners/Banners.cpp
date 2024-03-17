@@ -6,7 +6,7 @@ using namespace std;
 
 void Banners::logoIniziale() {
 
-    //Qui vanno messi i cout che sostituiscono i printf del rispettivo men� (da fare per ogni funzione men� presente nel progetto C precedente)
+    //Qui vanno messi i cout che sostituiscono i printf del rispettivo menù (da fare per ogni funzione menù presente nel progetto C precedente)
     cout << "funziona molto bene !" << endl;
 }
 

@@ -1,3 +1,11 @@
+#include <iostream>
+#include "../Banners/Banners.h"
+#include "../Giochi/Concentrazione/Concentrazione.h"
+#include "../Giochi/TrovaLaParola/TrovaLaParola.h"
+#include "../Giochi/Memoria/Memoria.h"
+#include "../Users/Users.h"
+#include "Colors/Colors.h" 
+
 /*
 -------------------------------------------------------------
 - Authors: Davide Longo, Giancarlo Mosca, Matteo Zerillo	-
@@ -6,14 +14,6 @@
 - Version: 2.8												-
 -------------------------------------------------------------
 */
-
-#include <iostream>
-#include "../Banners/Banners.h"
-#include "../Giochi/Concentrazione/Concentrazione.h"
-#include "../Giochi/TrovaLaParola/TrovaLaParola.h"
-#include "../Giochi/Memoria/Memoria.h"
-#include "../Users/Users.h"
-#include "Colors/Colors.h" 
 
 using namespace std;
 

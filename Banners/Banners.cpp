@@ -11,8 +11,13 @@ void Banners::logoIniziale() {
 }
 
 void Banners::uscitaFinale() {
+<<<<<<< HEAD
+	
+	cout << "ciao sono matteo" <<endl;
+=======
 
 	cout << "ciao sono giancarlo"<<endl;
+>>>>>>> 98dd50d19956abb7810271414b0057cd01450bcc
 }
 
 void Banners::inizioGame(){

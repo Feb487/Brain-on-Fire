@@ -3,7 +3,7 @@
 - Authors: Davide Longo, Giancarlo Mosca, Matteo Zerillo	-
 - Data: 14/03/2022  			 							-
 - Program: Brain_on_Fire C++                                -
-- Version: 2.1												-
+- Version: 2.8												-
 -------------------------------------------------------------
 */
 

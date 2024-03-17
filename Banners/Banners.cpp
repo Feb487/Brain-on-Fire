@@ -11,7 +11,6 @@ void Banners::logoIniziale() {
 }
 
 void Banners::uscitaFinale() {
-<<<<<<< HEAD
 	
 	cout << "ciao sono matteo" <<endl;
 

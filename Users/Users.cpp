@@ -16,16 +16,17 @@ void Users::credenzialiAccessoUtente() {
 
 }
 
-void Users::registrazione() {
+int Users::registrazione() {
 
     //Codice registrazione
-
+	return 0;
 }
 
-void Users::accesso() {
+int Users::accesso() {
 
     //Codice accesso
-cout << "funziona" << endl;
+	cout << "funziona" << endl;
+	return 0;
 }
 
 void Users::salvaEdEsci() {

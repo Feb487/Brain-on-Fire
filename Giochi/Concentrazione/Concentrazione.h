@@ -5,10 +5,11 @@ class Concentrazione {
 
     public:
         void game(); //Funzione contenente il primo minigioco (Concentrazione)
-
     private:
-        void caricamento(); //Funzione che esegue il caricamento dei numeri all'interno della matrice
-        void stampa(); //Funzione che esegue la stampa della matrice a video
+		//bool flag; //flag per interruzione del gioco
+		int *matrice; //puntatore ad intero per array dinamici
+        void caricamento(int,int); //Funzione che esegue il caricamento dei numeri all'interno della matrice
+        void stampa(int,int); //Funzione che esegue la stampa della matrice a video
 
 };
 

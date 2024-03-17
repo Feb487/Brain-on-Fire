@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../../Banners/Banners.h"
-#include "../../GlobalVariables/Global.h"
 #include "TrovaLaParola.h"
 
 using namespace std;

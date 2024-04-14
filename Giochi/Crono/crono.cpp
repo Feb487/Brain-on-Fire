@@ -5,17 +5,18 @@
 
 using namespace std;
 
-Crono::Crono(){ //funzione costruttore - imposta ad ogni istanza dell'oggetto tempo, il valore di esso 0
+//Funzione costruttore - imposta ad ogni istanza dell'oggetto tempo il valore 0
+Crono::Crono(){
 	tempo = 0;
 }
 
-void Crono::incrementa() //incrementa di 1 la variabile tempo
-{
+//Incrementa di 1 la variabile tempo
+void Crono::incrementa() {
 	tempo++;
 	sleep(1);
 }
 
-int Crono::leggi() //permette la lettura all'esterno della variabile
-{
+//Permette la lettura all'esterno della variabile tempo
+int Crono::leggi() {
 	return tempo;
 }

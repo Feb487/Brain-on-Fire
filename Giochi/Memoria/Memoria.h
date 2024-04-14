@@ -4,7 +4,7 @@
 class Memoria {
 
     public:
-        void game();
+        void game(); //Funzione contenente il terzo minigioco (Memoria)
 
     private:
         void num0(); //Funzione contenente il numero 0

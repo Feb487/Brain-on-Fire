@@ -22,17 +22,16 @@
 		</Compiler>
 		<Unit filename="Banners/Banners.cpp" />
 		<Unit filename="Banners/Banners.h" />
-		<Unit filename="Core/Colors/Colors.cpp" />
 		<Unit filename="Core/Colors/Colors.h" />
 		<Unit filename="Core/main.cpp" />
 		<Unit filename="Giochi/Concentrazione/Concentrazione.cpp" />
 		<Unit filename="Giochi/Concentrazione/Concentrazione.h" />
+		<Unit filename="Giochi/Crono/crono.cpp" />
+		<Unit filename="Giochi/Crono/crono.h" />
 		<Unit filename="Giochi/Memoria/Memoria.cpp" />
 		<Unit filename="Giochi/Memoria/Memoria.h" />
 		<Unit filename="Giochi/TrovaLaParola/TrovaLaParola.cpp" />
 		<Unit filename="Giochi/TrovaLaParola/TrovaLaParola.h" />
-		<Unit filename="GlobalVariables/Global.cpp" />
-		<Unit filename="GlobalVariables/Global.h" />
 		<Unit filename="Users/Users.cpp" />
 		<Unit filename="Users/Users.h" />
 		<Extensions>

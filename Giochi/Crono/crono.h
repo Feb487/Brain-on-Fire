@@ -4,12 +4,12 @@
 class Crono
 {
 	private:
-	int tempo;
+        int tempo;
 
 	public:
-	Crono();
-	void incrementa();
-	int leggi();
+        Crono();
+        void incrementa();
+        int leggi();
 };
 
 #endif

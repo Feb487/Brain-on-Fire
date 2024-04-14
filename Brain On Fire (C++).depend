@@ -1,33 +1,37 @@
 # depslib dependency file v1.0
-1708279621 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\banners\banners.cpp
+1710700645 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\banners\banners.cpp
 	<iostream>
 	"Banners.h"
+	<unistd.h>
 
-1708277543 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\banners\banners.h
+1713124825 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\banners\banners.h
 
-1708279934 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\concentrazione\concentrazione.cpp
+1710698411 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\concentrazione\concentrazione.cpp
 	<iostream>
+	<thread>
+	<unistd.h>
 	"../../Banners/Banners.h"
-	"../../GlobalVariables/Global.h"
 	"Concentrazione.h"
+	"../../Core/Colors/Colors.h"
+	"../Crono/crono.h"
 
-1708276264 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\concentrazione\concentrazione.h
+1713119062 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\concentrazione\concentrazione.h
 
-1708279745 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\memoria\memoria.cpp
+1710697319 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\memoria\memoria.cpp
 	<iostream>
 	"../../Banners/Banners.h"
-	"../../GlobalVariables/Global.h"
 	"Memoria.h"
 
-1708276273 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\memoria\memoria.h
+1713115944 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\memoria\memoria.h
 
-1708280429 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\trovalaparola\trovalaparola.cpp
+1713120884 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\trovalaparola\trovalaparola.cpp
 	<iostream>
+	<unistd.h>
+	<windows.h>
 	"../../Banners/Banners.h"
-	"../../GlobalVariables/Global.h"
 	"TrovaLaParola.h"
 
-1708276516 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\trovalaparola\trovalaparola.h
+1710697319 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\trovalaparola\trovalaparola.h
 
 1708279651 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\main.cpp
 	<iostream>
@@ -38,12 +42,12 @@
 	"Users/Users.h"
 	"GlobalVariables/Global.h"
 
-1708278291 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\users\users.cpp
+1710697319 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\users\users.cpp
 	<iostream>
 	"../Banners/Banners.h"
 	"Users.h"
 
-1708278110 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\users\users.h
+1710697319 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\users\users.h
 
 1708279604 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\globalvariables\global.h
 
@@ -55,16 +59,15 @@
 	<iostream>
 	"Colors.h"
 
-1708282243 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\core\colors\colors.h
+1713113908 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\core\colors\colors.h
 
-1708282260 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\core\main.cpp
+1710702516 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\core\main.cpp
 	<iostream>
 	"../Banners/Banners.h"
 	"../Giochi/Concentrazione/Concentrazione.h"
 	"../Giochi/TrovaLaParola/TrovaLaParola.h"
 	"../Giochi/Memoria/Memoria.h"
 	"../Users/Users.h"
-	"../GlobalVariables/Global.h"
 	"Colors/Colors.h"
 
 1708279621 source:c:\users\gianc\desktop\sviluppo sofware\c++\videogame\brain on fire (c++)\banners\banners.cpp
@@ -183,4 +186,12 @@
 	"../Users/Users.h"
 	"../GlobalVariables/Global.h"
 	"Colors/Colors.h"
+
+1713119825 c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\crono\crono.h
+
+1713115173 source:c:\users\davide\desktop\cartelle\scuola\informatica\brain on fire (c++)\giochi\crono\crono.cpp
+	<iostream>
+	<unistd.h>
+	<thread>
+	"crono.h"
 

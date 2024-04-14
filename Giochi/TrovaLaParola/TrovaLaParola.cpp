@@ -1,4 +1,6 @@
 #include <iostream>
+#include <unistd.h>
+#include <windows.h>
 #include "../../Banners/Banners.h"
 #include "TrovaLaParola.h"
 
